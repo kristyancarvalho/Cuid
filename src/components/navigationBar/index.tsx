@@ -1,21 +1,35 @@
+import Link from 'next/link'
+
 import styles from './navBar.module.css';
 
 export function NavigationBar() {
     return (
         <div className={styles.navContainer}>
             <div className={styles.nav__left}>
-                <a href="/">
-                    <img src="/favicon.png" alt="logo"/>
-                </a>
+                <Link  href="/"> 
+                    <a href="/">
+                        <img src="/favicon.png" alt="logo"/>
+                    </a>
+                </Link>
             </div>
             <div className={styles.nav__middle}>
-                <a href="/">Início</a>
-                <a href="/about">Sobre</a>
-                <a href="/">Serviços</a>
+                <Link href="/">
+                    <a>Início</a>
+                </Link>
+                <Link href="/about">
+                    <a>Sobre</a>
+                </Link>
+                <Link href="/">
+                    <a>Serviços</a>
+                </Link>
             </div>
             <div className={styles.nav__right}>
-                <a href="/">Entrar</a>
-                <a href="/">Criar conta</a>
+                <Link href="/">
+                    <a>Entrar</a>
+                </Link>
+                <Link  href="/">
+                    <a>Criar conta</a>
+                </Link>
             </div>       
         </div>
     );
