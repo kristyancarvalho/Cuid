@@ -10,12 +10,14 @@
 
 .content {
     height: 100vh;
-    width: 60vw;
+    width: 90vw;
 
     display: flex;
     text-align: center;
     flex-direction: column;
 }
+
+/* Quem somos */
 
 .content > .presentation > span {
     font-size: 65px;
@@ -37,4 +39,25 @@
     font-family: "PT Sans", sans-serif;
     font-style: italic;
     color: #b8b8b8;
+}
+
+/* Cards de descrição */
+
+.description__container > span {
+    font-size: 65px;
+
+    margin-top: 20px;
+
+    color: #666666;
+
+    font-weight: lighter;
+    font-family: "PT Sans", sans-serif;
+}
+
+.description_cards {
+    width: 90vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
