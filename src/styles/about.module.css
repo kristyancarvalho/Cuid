@@ -1,0 +1,36 @@
+.container {
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* sobre */
+
+.content {
+    height: 100vh;
+    width: 60vw;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content > .presentation > span {
+    font-size: 65px;
+
+    color: #666666;
+
+    font-weight: lighter;
+    font-family: "PT Sans", sans-serif;
+}
+
+.content > .presentation > p {
+    margin-top: 20px;
+
+
+    font-size: 30px;
+    font-family: "PT Sans", sans-serif;
+    color: #707070;
+}

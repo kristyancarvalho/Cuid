@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content__container {
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    width: 90vw;
+}
+
+/* intro */
+
+.content__left {
+    height: 100vh;
+    width: 60vw;
+}
+
+.content__left > span {
+    font-size: 65px;
+
+    color: #666666;
+
+    font-weight: bolder;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.content__left > span:nth-child(2) {
+    color: #2ecc71;
+    margin-left: 5px;
+}
+
+.content__left > p {
+    margin-top: 20px;
+
+    font-size: 30px;
+    font-family: "PT Sans", sans-serif;
+    color: #707070;
+}
+
+
+/* botões */
+
+.buttons {
+    display: flex;
+}
+
+.buttons > .callCaregiver:hover {
+    filter: brightness(1.1);
+}
+
+.buttons > .registerCaregiver:hover {
+    filter: brightness(0.980);
+}
+
+.buttons > .callCaregiver > img {
+    margin-left: 10px;
+}
+
+.buttons > .callCaregiver {
+    height: 60px;
+    width: 230px;
+
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border: none;
+    background: #2ecc71;
+
+    cursor: pointer;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+
+    transition: .2s;
+}
+
+.buttons > .registerCaregiver {
+    height: 60px;
+    width: 230px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background: #f5f6fa;;
+    border: 2px solid #b8b8b8;
+
+    cursor: pointer;
+
+    color: #707070;
+    font-weight: bolder;
+    font-size: 14px;
+
+    transition: .2s;
+}
+
+.buttons > .registerCaregiver > img {
+    margin-left: 10px;
+}
+
+.content__right {
+    height: 80vh;
+    width: 50vh;
+
+    background: #2ecc71;
+
+    border-radius: 8px;
+
+}
