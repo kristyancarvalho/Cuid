@@ -21,7 +21,7 @@ export default function Home() {
             somos
             </span>
             <span>
-              Cuid!
+              Cuid
             </span>
 
             <p>

@@ -20,12 +20,12 @@
 /* Quem somos */
 
 .content > .presentation > span {
-    font-size: 65px;
+    font-size: 2rem;
 
     color: #666666;
 
-    font-weight: lighter;
-    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 
 .content > .presentation > p {
@@ -35,23 +35,26 @@
     border-left: 6px solid #cecece;
     border-radius: 5px;
 
-    font-size: 30px;
-    font-family: "PT Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
     font-style: italic;
     color: #b8b8b8;
 }
 
 /* Cards de descrição */
 
-.description__container > span {
-    font-size: 65px;
+.description__container {
+    margin-top: 30px;
+}
 
-    margin-top: 20px;
+.description__container > span {
+    font-size: 2rem;
 
     color: #666666;
 
-    font-weight: lighter;
-    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
 
 .description_cards {
