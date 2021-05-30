@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__container {
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 90vw;
+}
+
+.container > .content__container > span {
+    font-size: 2rem;
+
+    color: #666666;
+
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.container > .content__container > .cards {
+    margin-top: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

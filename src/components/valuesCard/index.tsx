@@ -1,4 +1,4 @@
-import styles from './values.module.css';
+import styles from './index.module.css';
 
 export function ValuesCard() {
     return(

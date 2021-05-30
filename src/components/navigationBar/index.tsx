@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import styles from './navBar.module.css';
+import styles from './index.module.css';
 
 export function NavigationBar() {
     return (
@@ -19,7 +19,7 @@ export function NavigationBar() {
                 <Link href="/about">
                     <a>Sobre</a>
                 </Link>
-                <Link href="/">
+                <Link href="/works">
                     <a>Serviços</a>
                 </Link>
             </div>

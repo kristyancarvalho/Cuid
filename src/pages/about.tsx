@@ -1,11 +1,11 @@
 import { NavigationBar } from "../components/navigationBar";
-import { MissionCard } from '../components/missionCard/missionCard';
+import { MissionCard } from '../components/missionCard';
+import { VisionCard } from "../components/visionCard";
+import { ValuesCard } from "../components/valuesCard";
 
 import Head from 'next/head'
 
 import styles from '../styles/about.module.css';
-import { ValuesCard } from "../components/valuesCard/valuesCard";
-import { VisionCard } from "../components/visionCard/visionCard";
 
 export default function About() {
   return (

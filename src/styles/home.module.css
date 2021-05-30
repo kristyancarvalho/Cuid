@@ -117,7 +117,7 @@
     height: 80vh;
     width: 50vh;
 
-    background: #2ecc71;
+    background: linear-gradient(to top right, #2ecc71, #65e099);
 
     border-radius: 8px;
 

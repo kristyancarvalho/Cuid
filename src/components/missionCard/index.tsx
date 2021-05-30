@@ -1,4 +1,4 @@
-import styles from './mission.module.css';
+import styles from './index.module.css';
 
 export function MissionCard() {
     return(
