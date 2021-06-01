@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding-top: 100px;
+
+    text-align: center;
+
+    width: 90vw;
+}
+
+.container > .content span {
+    font-size: 2rem;
+
+    color: #666666;
+
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.container > .content .contact__elements {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.container > .content > .contact__elements > .contact__left {
+    width: 40vw;
+}
+
+.container > .content > .contact__elements > .contact__left > p {
+    font-size: 1.2rem;
+
+    color: #616161;
+
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.container > .content > .contact__elements > .contact__left > .email {
+    margin-top: 30px;
+}
+
+.container > .content > .contact__elements > .contact__left > .email > span:first-child {
+    font-size: 1.25rem;
+
+    color: #494949;
+    font-family: "Poppins", sans-serif;
+}
+
+.container > .content > .contact__elements > .contact__left > .email > span > img {
+    height: 16px;
+    width: 16px;
+
+    margin-right: 5px;
+}
+
+.container > .content > .contact__elements > .contact__left > .email > span {
+    font-size: 1.25rem;
+
+    color: #616161;
+
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+/* whatsapp section */
+
+.container > .content > .contact__elements > .contact__left > .whatsapp {
+    margin-top: 30px;
+}
+
+.container > .content > .contact__elements > .contact__left > .whatsapp > span:first-child {
+    font-size: 1.25rem;
+
+    color: #494949;
+    font-family: "Poppins", sans-serif;
+}
+
+.container > .content > .contact__elements > .contact__left > .whatsapp > span > img {
+    height: 16px;
+    width: 16px;
+
+    margin-right: 5px;
+}
+
+.container > .content > .contact__elements > .contact__left > .whatsapp > span {
+    font-size: 1.25rem;
+
+    color: #616161;
+
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}

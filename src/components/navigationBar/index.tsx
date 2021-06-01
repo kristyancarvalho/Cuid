@@ -22,6 +22,9 @@ export function NavigationBar() {
                 <Link href="/works">
                     <a>Serviços</a>
                 </Link>
+                <Link href="/contact">
+                    <a>Contato</a>
+                </Link>
             </div>
             <div className={styles.nav__right}>
                 <Link href="/">
