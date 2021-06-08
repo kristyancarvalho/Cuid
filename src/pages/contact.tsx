@@ -40,7 +40,20 @@ export default function Con() {
               </section>
             </div>
             <div className={styles.contact__right}>
+
+              <section className={styles.contact_right__title}>
+                <span>Deseja mais informações?</span>
+              </section>
+
+              <div className={styles.contact_right__elements}>
+                <input type="text" name="Nome" id={styles.Name} placeholder="Nome completo"/>
+                <input type="text" name="Telefone" id={styles.Telephone} placeholder="Telefone"/>
+                <input type="email" name="Email" id={styles.Email} placeholder="Email"/>
+                <input type="text" name="Assunto" id={styles.reason} placeholder="Assunto"/>
+                <textarea name="Necessidades" id={styles.textarea} placeholder="Quais são suas necessidades?"></textarea>
               
+                <button type="submit">Enviar</button>
+              </div>
             </div>
           </div>
         </div>

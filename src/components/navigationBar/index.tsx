@@ -27,10 +27,10 @@ export function NavigationBar() {
                 </Link>
             </div>
             <div className={styles.nav__right}>
-                <Link href="/">
+                <Link href="https://app.cuid.com.br/login">
                     <a>Entrar</a>
                 </Link>
-                <Link  href="/">
+                <Link  href="https://app.cuid.com.br/profissionais/cadastro">
                     <a>Criar conta</a>
                 </Link>
             </div>       
