@@ -5,6 +5,7 @@ import { NavigationBar } from "../components/navigationBar";
 import { CaregiverCard } from '../components/caregiverCard';
 import { NurseryCard } from '../components/nurseryCard';
 import { BabysittersCard } from '../components/babysittersCard';
+import { Footer } from '../components/footer';
 import { OperativeCard } from '../components/operativeCard';
 
 import Head from 'next/head'
@@ -29,6 +30,8 @@ export default function Home() {
             </div>
           </div>
       </div>
+
+      <Footer />
     </>
   );
 }

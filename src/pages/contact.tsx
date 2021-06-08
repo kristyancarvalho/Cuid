@@ -1,6 +1,7 @@
 import styles from '../styles/contact.module.css';
 
 import { NavigationBar } from "../components/navigationBar";
+import { Footer } from '../components/footer';
 
 import Head from 'next/head'
 
@@ -58,6 +59,8 @@ export default function Con() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

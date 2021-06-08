@@ -6,6 +6,7 @@ import { ValuesCard } from "../components/valuesCard";
 import Head from 'next/head'
 
 import styles from '../styles/about.module.css';
+import { Footer } from "../components/footer";
 
 export default function About() {
   return (
@@ -33,6 +34,8 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

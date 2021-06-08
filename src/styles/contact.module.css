@@ -150,6 +150,8 @@
 
     font-weight: 200;
     font-family: "Poppins", sans-serif;
+
+    resize: none;
 }
 
 .contact_right__elements > button:hover {

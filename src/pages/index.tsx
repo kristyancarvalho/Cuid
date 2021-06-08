@@ -4,6 +4,7 @@ import { NavigationBar } from "../components/navigationBar";
 
 import Link from 'next/link'
 import Head from 'next/head'
+import { Footer } from '../components/footer';
 
 export default function Home() {
   return (
@@ -51,6 +52,8 @@ export default function Home() {
            <div className={styles.content__right} />
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

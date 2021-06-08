@@ -1,0 +1,137 @@
+.footer__container {
+    width: 100%;
+    height: 65vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: #fff;
+}
+
+.footer__elements {
+    width: 100%;
+    height: 60vh;
+
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #fff;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left > span {
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+    color: #575757;
+}
+
+.footer__left > a:hover {
+    text-decoration: underline;
+}
+
+.footer__left > a {
+    padding-bottom: 10px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+    color: #2ecc71;
+}
+
+.footer__middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__middle > span {
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+    color: #575757;
+}
+
+.footer__middle > a:hover {
+    text-decoration: underline;
+}
+
+.footer__middle > a {
+    padding-bottom: 10px;
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+    color: #2ecc71;
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__right > span {
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+    color: #575757;
+}
+
+.footer__right > .footer_right__connections > img:hover {
+    transform: scale(0.9);
+
+    cursor: pointer;
+}
+
+.footer__right > .footer_right__connections > img {
+    height: 40px;
+    width: 40px;
+
+    margin-right: 20px;
+
+    transition: .2s;
+}
+
+.footer__rights {
+    height: 180px;
+    width: 60vw;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.footer__rights > img {
+    height: 100px;
+    width: 230px;
+}
+
+.footer__rights > span {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+
+    color: #272727;
+}
