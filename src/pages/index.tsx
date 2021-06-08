@@ -28,7 +28,7 @@ export default function Home() {
 
             <p>
               Sabemos o enorme desafio que existe em encontrar cuidadores de forma simples, rápida e segura.
-              A Cuid conecta você a cuidadores experientes, para trazer a você mais tranquilidade e conforto a quem você ama.
+              A Cuid conecta você <br/>a cuidadores experientes, para trazer a você mais tranquilidade e conforto a quem você ama.
             </p>
 
             {/* botões de conexão */}

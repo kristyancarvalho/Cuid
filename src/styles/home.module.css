@@ -22,7 +22,7 @@
 }
 
 .content__left > span {
-    font-size: 3rem;
+    font-size: 4.5rem;
 
     color: #666666;
 
@@ -38,7 +38,7 @@
 .content__left > p {
     margin-top: 20px;
 
-    font-size: 2rem;
+    font-size: 16px;
     font-family: "PT Sans", sans-serif;
     color: #707070;
 }
