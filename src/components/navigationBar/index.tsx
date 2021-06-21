@@ -8,7 +8,7 @@ export function NavigationBar() {
             <div className={styles.nav__left}>
                 <Link  href="/"> 
                     <a href="/">
-                        <img src="/favicon.png" alt="logo"/>
+                        <img src="/favicon.png" alt="logo" />
                     </a>
                 </Link>
             </div>

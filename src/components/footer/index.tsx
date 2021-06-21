@@ -39,10 +39,10 @@ export function Footer() {
                     <span>Redes sociais</span>
 
                     <div className={styles.footer_right__connections}>
-                        <Link href="https://app.cuid.com.br/">
+                        <Link href="https://www.facebook.com/SomosCuid/">
                                 <img src="/icons/facebook.png" alt=""/>
                         </Link>
-                        <Link href="https://app.cuid.com.br/profissionais/cadastro">
+                        <Link href="https://www.instagram.com/SomosCuid/">
                                 <img src="/icons/instagram.png" alt=""/>
                         </Link>
                         <Link href="https://api.whatsapp.com/send?phone=5511959984119&text=Ol%C3%A1,%0Dgostaria%20divulgar%20meus%20servi%C3%A7os%20na%20Cuid.">
